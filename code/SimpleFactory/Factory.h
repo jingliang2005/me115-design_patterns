@@ -12,7 +12,8 @@
 #include <string>
 using namespace std;
 
-class Factory
+namespace SimpleFactory{
+	class Factory
 {
 
 public:
@@ -22,4 +23,7 @@ public:
 	static Product * createProduct(string proname);
 
 };
+}
+
+
 #endif // !defined(EA_4C08AF19_2960_47a1_B769_9B60CFA50FE0__INCLUDED_)

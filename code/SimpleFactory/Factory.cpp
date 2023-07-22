@@ -10,6 +10,8 @@
 #include "ConcreteProductB.h"
 
 
+namespace SimpleFactory{
+	
 Factory::Factory(){
 
 }
@@ -31,4 +33,5 @@ Product* Factory::createProduct(string proname){
 		return new ConcreteProductB();
 	}
 	return  NULL;
+}
 }

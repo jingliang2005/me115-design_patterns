@@ -10,6 +10,8 @@
 
 #include "Product.h"
 
+namespace SimpleFactory{
+	
 class ConcreteProductA : public Product
 {
 
@@ -20,4 +22,6 @@ public:
 	virtual void Use();
 
 };
+}
+
 #endif // !defined(EA_7A08FFBB_5AD4_4f9c_AE53_998AC5E88F34__INCLUDED_)

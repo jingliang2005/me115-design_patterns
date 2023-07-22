@@ -11,6 +11,8 @@
 
 using namespace std;
 
+namespace SimpleFactory{
+	
 ConcreteProductA::ConcreteProductA(){
 
 }
@@ -24,4 +26,5 @@ ConcreteProductA::~ConcreteProductA(){
 void ConcreteProductA::Use()
 {
 	cout << "use productB" << endl;	
+}
 }
