@@ -10,7 +10,9 @@
 
 #include "Product.h"
 
-class Factory
+namespace FactoryMethod
+{
+	class Factory
 {
 
 public:
@@ -20,4 +22,7 @@ public:
 	virtual Product* factoryMethod();
 
 };
+} // namespace FactoryMethod
+
+
 #endif // !defined(EA_BB1E9945_CCF9_4d5c_8B7D_C3D86C0C2856__INCLUDED_)

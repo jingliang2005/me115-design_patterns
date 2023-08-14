@@ -11,7 +11,9 @@
 #include "Product.h"
 #include "Factory.h"
 
-class ConcreteFactory : public Factory
+namespace FactoryMethod
+{
+	class ConcreteFactory : public Factory
 {
 
 public:
@@ -21,4 +23,7 @@ public:
 	virtual Product* factoryMethod();
 
 };
+} // namespace FactoryMethod
+
+
 #endif // !defined(EA_99AEC7F3_304D_41c6_A35C_A81D7E5B280F__INCLUDED_)

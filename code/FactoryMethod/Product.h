@@ -8,6 +8,9 @@
 #if !defined(EA_071D24B8_F0A3_4f19_955A_8F5511036EF0__INCLUDED_)
 #define EA_071D24B8_F0A3_4f19_955A_8F5511036EF0__INCLUDED_
 
+namespace FactoryMethod
+{
+	
 class Product
 {
 
@@ -18,4 +21,6 @@ public:
 	virtual void use();
 
 };
+} // namespace FactoryMethod
+
 #endif // !defined(EA_071D24B8_F0A3_4f19_955A_8F5511036EF0__INCLUDED_)

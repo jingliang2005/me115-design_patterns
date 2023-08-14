@@ -8,8 +8,9 @@
 #include "Factory.h"
 #include<stdio.h> 
 
-
-Factory::Factory(){
+namespace FactoryMethod
+{
+	Factory::Factory(){
 
 }
 
@@ -22,4 +23,7 @@ Factory::~Factory(){
 Product* Factory::factoryMethod(){
 	return  NULL;
 }
+} // namespace FactoryMethod
+
+
 

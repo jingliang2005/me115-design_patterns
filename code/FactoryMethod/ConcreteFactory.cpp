@@ -8,7 +8,9 @@
 #include "ConcreteFactory.h"
 #include "ConcreteProduct.h"
 
-ConcreteFactory::ConcreteFactory(){
+namespace FactoryMethod
+{
+	ConcreteFactory::ConcreteFactory(){
 
 }
 
@@ -21,3 +23,5 @@ Product* ConcreteFactory::factoryMethod(){
 
 	return  new ConcreteProduct();
 }
+} // namespace FactoryMethod
+

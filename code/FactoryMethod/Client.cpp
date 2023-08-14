@@ -7,8 +7,9 @@
 
 #include "Client.h"
 
-
-Client::Client(){
+namespace FactoryMethod
+{
+	Client::Client(){
 
 }
 
@@ -17,3 +18,5 @@ Client::Client(){
 Client::~Client(){
 
 }
+} // namespace FactoryMethod
+

@@ -6,9 +6,9 @@
 ///////////////////////////////////////////////////////////
 
 #include "Product.h"
-
-
-Product::Product(){
+namespace FactoryMethod
+{
+	Product::Product(){
 
 }
 
@@ -17,6 +17,9 @@ Product::Product(){
 Product::~Product(){
 
 }
+
+
+} // namespace FactoryMethod
 
 
 

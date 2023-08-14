@@ -7,7 +7,9 @@
 
 #include "Product.h"
 
-
+namespace SimpleFactory
+{
+    
 Product::Product(){
 
 }
@@ -17,3 +19,4 @@ Product::Product(){
 Product::~Product(){
 
 }
+} // namespace name

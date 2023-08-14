@@ -8,7 +8,9 @@
 #if !defined(EA_18EFCEE9_550F_4132_986C_CB1894F63B40__INCLUDED_)
 #define EA_18EFCEE9_550F_4132_986C_CB1894F63B40__INCLUDED_
 
-class Client
+namespace FactoryMethod
+{
+	class Client
 {
 
 public:
@@ -16,4 +18,7 @@ public:
 	virtual ~Client();
 
 };
+} // namespace FactoryMethod
+
+
 #endif // !defined(EA_18EFCEE9_550F_4132_986C_CB1894F63B40__INCLUDED_)
